@@ -11,13 +11,13 @@ rm -rf ~/.java/.userPrefs/jetbrains/idea
 rm -rf ~/.java/.userPrefs/jetbrains/webstorm
 rm -rf ~/.java/.userPrefs/jetbrains/pycharm
 
-echo "resetting evalsprt in options.xml"
+echo "resetting evalsprt in other.xml"
 #They introduced another keys in other.xml instead of options.xml -> evlsprt1. evlsprt2 etc
 
-sed -i '/evlsprt/d' ~/.IntelliJIdea*/config/options/options.xml
-sed -i '/evlsprt/d' ~/.GoLand*/config/options/options.xml
-sed -i '/evlsprt/d' ~/.WebStorm*/config/options/options.xml
-sed -i '/evlsprt/d' ~/.PyCharm*/config/options/options.xml
+sed -i '/evlsprt/d' ~/.IntelliJIdea*/config/options/other.xml
+sed -i '/evlsprt/d' ~/.GoLand*/config/options/other.xml
+sed -i '/evlsprt/d' ~/.WebStorm*/config/options/other.xml
+sed -i '/evlsprt/d' ~/.PyCharm*/config/options/other.xml
 
 echo "resetting evalsprt in prefs.xml"
 sed -i '/evlsprt/d' ~/.java/.userPrefs/prefs.xml
