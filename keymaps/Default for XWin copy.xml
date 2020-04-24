@@ -1,0 +1,7 @@
+<keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+  <action id="CloseActiveTab" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="EditorSelectWord" />
+</keymap>
