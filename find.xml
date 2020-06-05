@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'gearbox'" />
-    <option name="defaultScopeName" value="Project 'gearbox'" />
-    <option name="SEARCH_SCOPE" value="Project 'gearbox'" />
+    <option name="customScope" value="Project 'sudoku-solver'" />
+    <option name="defaultScopeName" value="Project 'sudoku-solver'" />
+    <option name="SEARCH_SCOPE" value="Project 'sudoku-solver'" />
   </component>
 </application>
