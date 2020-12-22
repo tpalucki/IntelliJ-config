@@ -7,4 +7,12 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="GotoPreviousError" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f2" />
+  </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="shift ctrl f2" />
+  </action>
+  <action id="StopBackgroundProcesses" />
 </keymap>
